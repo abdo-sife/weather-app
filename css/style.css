@@ -1,0 +1,184 @@
+a
+{
+    text-decoration: none !important;
+}
+.logoTitle
+{
+    color: white;
+}
+.logoTitle h1
+{
+ margin-bottom: 5px;
+ font-size: 16px;
+ font-weight: 700;
+}
+small
+{
+    font-size: 10px;
+    color: #bfc1c8;
+    font-weight: 300;
+}
+.logo
+{
+    margin-right: 10px;
+}
+.headerLogo .navbar-nav .nav-item a
+{
+    padding: 5px 15px;
+    color: white;
+    border-color: black;
+    font-size: 14px;
+    font-weight: 400;
+    transition:  0.4s ;
+
+    
+   
+}
+.headerLogo .navbar-nav .nav-item .home
+{
+   
+    color: #009ad8 !important;
+    border: #009ad8 2px solid;
+    border-radius: 30px;  
+   
+}
+.headerLogo .navbar-nav .nav-item a:hover
+{
+    color: #009ad8 !important;
+    border: #009ad8 2px solid;
+    border-radius: 30px;
+}
+.weatherHeader
+{
+    padding: 35px 0px;
+    background-color: #1e202b;
+}
+.collapse .navbar-nav
+{
+    width: 60%;
+}
+
+.weatherbackground
+{
+    background-image: url(../images/banner.png);
+    min-height: 350px;
+    background-size: cover;
+    padding: 70px 0px;
+}
+.boton{
+    position: absolute !important;
+    top: 21% !important;
+    right: 13% !important;
+    width: 100px;
+    border-color: #009ad8 !important ;
+    background-color: #009ad8 !important;
+
+
+}
+/* .weatherBody
+{
+    background-color: #1e202b; 
+    position: relative;
+} */
+body
+{
+    background-color: #1e202b;   
+}
+
+
+.weatherCard
+{
+    position: relative;
+    top: -50%;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    backdrop-filter: blur(3px);
+    
+}
+.col-md-4 :hover{
+    transform:scale(1.05);
+    transition: all 0.5s ease;
+}
+
+span
+{
+    font-size: 14px;
+}
+.condition-text
+{
+    color: #009ad8 ;
+}
+.form-control
+{
+    background-color: #1e202b;
+    border-radius: 30px;
+    border: none;
+    height: calc(2.5em + .75rem + 2px);
+}
+
+.weatherFooter{
+  background-color:#262936 ;  
+  
+  padding: 50px 0 ;
+}
+input:focus
+{
+    background-color: #1e202b;
+}
+.btn
+{
+    background-color: #009ad8;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.social a i
+{
+    width: 40px;
+    height: 40px;
+    background: #1e202b;
+    border-radius: 50%;
+    color: #009ad8;
+    font-size: 20px;
+    padding-top: 10px;
+    line-height: 20px;
+    text-align: center;
+    position: relative !important;
+    transition:  0.3s ;
+    
+    
+   
+    
+  
+}
+
+
+
+.social a i:hover
+{
+    color: white;
+    background: #009ad8; 
+}
+.weatherFooter p
+{
+    color: #bfc1c8;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+

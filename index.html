@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Weather</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+    <body>
+        <header>
+            <div class="weatherHeader">
+                <div class="container  ">
+                    <div class="headerLogo  ">
+                                            
+                        <nav class="navbar navbar-expand-lg navbar-dark  ">
+                            <a class="navbar-brand" href="#" class="float-left">
+                                <img src="images/logo@2x.png" alt="" width="64" height="38" class="logo">
+                                <div class="logoTitle float-right">
+                                    <h1>Weather</h1>
+                                    <small>tagline goes here</small>
+                                </div>
+                            </a>
+                            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                                <ul class="navbar-nav ml-auto mt-2 mt-lg-0 justify-content-lg-between">
+                                    <li class="nav-item ">
+                                        <a class="nav-link home" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">News</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Live cameras</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Photos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Contact</a>
+                                    </li>
+
+                                
+                                </ul>
+                            
+                            </div>
+                        </nav> 
+                    </div>
+                
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="weatherbackground position-relative "> 
+                <div>
+                    <input type="text" placeholder="Find your location..." class="form-control w-75 m-auto" id="search"> 
+
+                    <button class="btn btn-primary boton" >find</button>
+                </div>
+             
+            </div>
+            <div class="weatherBody  ">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 move">
+                        <div class="weatherCard p-3 text-white  ">
+                            <div class="header d-flex justify-content-between border-bottom">
+                                <div class="day "></div>
+                                <div class="date "></div>
+                            </div>
+                            <div class="body">
+                                <div id="city"></div>
+                                <div class="d-flex justify-content-between">
+                                    <div class="max-temp "></div>
+                                    <div>
+                                        <img src="" class ="icon"alt="">
+                                    </div>
+                                </div>
+                                <div class="min-temp"></div>
+                                <div class="condition-text mb-3"></div>
+                                <div>
+                                    <div class="d-flex ">
+                                    <div class="mr-4">
+                                        <img src="images/icon-umberella.png" alt="">
+                                        <span class="humidity"></span>
+                                    </div>
+                                
+                                    <div class="mr-4">
+                                        <img src="images/icon-wind.png" alt="">
+                                        <span class="wind-speed"></span>
+                                    </div>
+                                    <div class="mr-4">
+                                        <img src="images/icon-compass.png" alt="">
+                                        <span class="wind-direction"></span>
+                                    </div>
+                                </div>
+                                </div>
+
+                            </div>
+                        </div>                        
+                        </div>
+                        <div class="col-md-4">
+                        <div class="weatherCard p-3 text-white text-center ">
+                            <div class="header d-flex justify-content-between border-bottom">
+                                <div class="day "></div>
+                                <div class="date "></div>
+                            </div>
+                            <div class="body">
+                                <div >
+                                    <div class=" mb-3 mt-3">
+                                        <img src="" class="icon" alt="">
+                                    </div>
+                                    <div class="max-temp "></div>
+                                </div>
+                                <div class="min-temp"></div>
+                                <div class="condition-text mb-3"></div>
+                                <div>
+                                    <div class="d-flex justify-content-center ">
+                                    <div class="mr-4">
+                                        <img src="images/icon-umberella.png" alt="">
+                                        <span class="humidity"></span>
+                                    </div>
+                                
+                                    <div class="mr-4">
+                                        <img src="images/icon-wind.png" alt="">
+                                        <span class="wind-speed"></span>
+                                    </div>
+                                    <div class="mr-4">
+                                        <img src="images/icon-compass.png" alt="">
+                                        <span class="wind-direction"></span>
+                                    </div>
+                                </div>
+                                </div>
+
+                            </div>
+                        </div>                        
+                        </div>
+                        <div class="col-md-4">
+                
+                        <div class="weatherCard p-3 text-white text-center ">
+                            <div class="header d-flex justify-content-between border-bottom">
+                                <div class="day "></div>
+                                <div class="date "></div>
+                            </div>
+                            <div class="body">
+                                <div >
+                                    <div class=" mb-3 mt-3">
+                                        <img src="" class="icon" alt="">
+                                    </div>
+                                    <div class="max-temp "></div>
+                                </div>
+                                <div class="min-temp"></div>
+                                <div class="condition-text mb-3"></div>
+                                <div>
+                                    <div class="d-flex justify-content-center ">
+                                    <div class="mr-4">
+                                        <img src="images/icon-umberella.png" alt="">
+                                        <span class="humidity"></span>
+                                    </div>
+                                
+                                    <div class="mr-4">
+                                        <img src="images/icon-wind.png" alt="">
+                                        <span class="wind-speed"></span>
+                                    </div>
+                                    <div class="mr-4">
+                                        <img src="images/icon-compass.png" alt="">
+                                        <span class="wind-direction"></span>
+                                    </div>
+                                </div>
+                                </div>
+
+                            </div>
+                        </div>                        
+                        </div>              
+                    </div> 
+                </div>
+            </div> 
+        </section>
+        <footer>
+            <div class="weatherFooter">
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 ">  
+                            <div class="position-relative"> 
+                            <input type="text" placeholder="Enter your email to subscribe..." class="form-control  ">
+                            <button class="btn  ">Subscribe</button>
+                        </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="social m-3">
+                                
+                                <a  href=""> <i class="fab fa-facebook-f" ></i></a>
+                                <a  href=""> <i class="fab fa-twitter" ></i></a>
+                                <a  href=""> <i class="fab fa-pinterest" ></i></a>
+                                <a href=""> <i class="fab fa-google-plus" ></i></a>
+                                
+                                
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+                </div>
+            </div>
+        </footer>
+       <script src="js/jquery-3.6.0.min.js"></script>
+       <script src="js/popper.min.js"></script>
+       <script src="js/bootstrap.min.js"></script>
+       <script src="js/mine.js"></script>
+    </body>
+</html>
